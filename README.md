@@ -5,7 +5,7 @@ To get kick-started, do following:
 > mvn clean install -DskipTest
 
 > docker build -t corona-tracker . 
-## grab the image id and then run:
+## grab the image id and then run in detached mode:
 docker run -d -p 8080:8080 {imageId}
 
 ##open in the browser
